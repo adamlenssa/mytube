@@ -1,0 +1,156 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+}
+
+nav {
+    background-color: dimgrey;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    
+}
+    
+nav a {
+    position: sticky;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display:inline-block;
+    padding: 20px;   
+    }
+    
+nav a:hover {
+    background: black;
+    transition: 0.4s;
+}
+
+h1 {
+    border: 1px solid black;
+    width: 400px;
+    display: block;
+    border-radius: 3px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 50px;
+    box-shadow: -20px 20px 30px rgba(0, 0, 0, 0.4);
+    background-color: white;
+}
+
+.wrapper {
+    width: 2500px;
+    height: 1600px;
+    position: relative;
+}
+
+.mainvid {
+    position: absolute;
+    left: 0;
+    align-items: center;
+    margin: 20px;
+    width: 1400px;
+    padding: 5px;
+}
+
+.secvid {
+    position: absolute;
+    right:0;
+    top: 0;
+    margin: 20px;
+    width: 960px;
+    padding: 5px;
+}
+
+.third {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    width: 960px;
+    padding: 5px;
+}
+
+.mainvid, .secvid, .third {
+    box-shadow: -20px 20px 30px rgba(0, 0, 0, 0.4);
+}
+
+.text {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 400px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 50%;
+}
+
+form label {
+    color: whitesmoke;
+    display: inline-block;
+}
+
+.inputs {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.newvideo {
+    background-image: url(https://musicofethiopia.files.wordpress.com/2016/09/62751449_01_ethiopia_oromo_afp.jpg);
+    background-size: cover;
+    
+}
+
+table {
+    margin: auto;
+    border-spacing: 4em;
+}
+
+td {
+    padding: 5px;
+    margin: 40px;
+    box-shadow: -20px 20px 30px rgba(0, 0, 0, 0.4);
+}
+
+td:hover {
+    transform: scale(1.1);
+    transition: .25s ease;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.8)
+}
+
+section > iframe {
+    display: block;
+    margin: auto;
+    box-shadow: -20px 20px 30px rgba(0, 0, 0, 0.4);
+}
+
+section > iframe:hover {
+    transform: scale(1.1);
+    transition: .25s ease;
+}
+
+footer {
+    text-align: center;
+}
+
+td label {
+    display: block;
+}
+td label:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 0.4s;
+}

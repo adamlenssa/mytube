@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <title>MyTube</title>
+    <link rel="stylesheet" href="index.css">
+    </head>
+    <body class="newvideo">
+        <nav>
+            <a href="../pages/index.html">Home</a>
+            <a href="../pages/collection1.html">Wallaga Music</a>
+            <a href="../pages/collection2.html">Shewa Music</a>
+            <a href="../pages/collection3.html">Haraghe Music</a>
+            <a href="../pages/newvideo.html">New Video Submission</a>
+        </nav>
+        <header>
+            <h1>Add New Video</h1>
+        </header>
+        <form>
+            <label for="videoname">
+                <strong>Video Title</strong>
+            </label>
+            <br>
+            <input type="text" name="videoname" id="videoname" placeholder="Video Title" required class="inputs">
+            <br>
+            <label for="description">
+                <strong>Description</strong>
+            </label>
+            <br>
+            <textarea name="description" id="description" cols="40" rows="10" placeholder="Description of the song" required class="inputs"></textarea>
+            <br>
+            <label for="videoupload"><strong>Video</strong></label>
+            <br>
+            <input type="file" name="videoupload" id="videoupload" class="inputs">
+            <br> <br>
+            <select name="collectionselect" id="collectionselect" required class="inputs">
+                <option value=""hidden selected>Choose...</option>
+                <option value="collection1">Wallaga Music</option>
+                <option value="collection2">Shewa Music</option>
+                <option value="collection3">Haraghe Music</option>
+            </select>
+            <br> <br>
+            <label for="publicity" ></label>
+            <input type="radio" name="publicity" id="public" required class="inputs">
+            <label for="public">Public</label>
+            <input type="radio" name="publicity" id="private" required class="inputs">
+            <label for="private">Private</label>
+            <br><br><br>
+            <input type="submit" value="Upload Video" class="inputs">
+        </form>
+    </body>
+</html>
